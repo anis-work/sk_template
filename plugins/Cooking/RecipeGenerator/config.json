@@ -1,0 +1,25 @@
+{
+    "schema": 1,
+    "description": "Given input, it provides recipe as output",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 256,
+            "temperature": 0,
+            "top_p": 0,
+            "presence_penalty": 0,
+            "frequency_penalty": 0
+        }
+    },
+    "input_variables": [
+        {
+            "name": "input",
+            "description": "The dish name to generate a recipe for.",
+            "default": ""
+        },
+        {
+            "name": "format",
+            "description": "The format of the recipe output.",
+            "default": "step-by-step"
+        }
+    ]
+}
