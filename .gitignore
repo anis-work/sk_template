@@ -101,6 +101,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+plugins/Teaching/.env
 
 # Spyder project settings
 .spyderproject
@@ -125,3 +126,6 @@ venv.bak/
 
 # Cython debug symbols
 cython_debug/
+
+# VSCode settings
+.vscode/
